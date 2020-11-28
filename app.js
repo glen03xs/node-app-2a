@@ -12,7 +12,7 @@ app.set('view engine', 'ejs')
 
 app.use('/', router)
 
-app.listen(4000)
+module.exports = app;
 
 
 // 11-28-20 
